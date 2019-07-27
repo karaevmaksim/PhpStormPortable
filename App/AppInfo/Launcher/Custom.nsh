@@ -1,6 +1,6 @@
 ${SegmentFile}
 
-${SegmentInit}
+${SegmentPre}
     ${If} $Bits = 64
         ${SetEnvironmentVariablesPath} JAVA_HOME "$EXEDIR\..\CommonFiles\OpenJDK64"
     ${Else}
